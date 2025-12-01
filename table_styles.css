@@ -1,10 +1,10 @@
 .container{
     display: grid;
-    grid-template-columns: 300px 100px 100px 100px;
+    grid-template-columns: 450px 150px 150px 150px;
     grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 75px;
     border-radius: 15px; 
     height: 475px;
-    width: 600px;
+    width: 900px;
     border: 2px solid #000;
     margin-left: 25px;
     overflow: hidden;
@@ -43,7 +43,7 @@ body{
 
 .border{
     height: 600px;
-    width: 650px;
+    width: 950px;
     background: linear-gradient(135deg, #F95E62 0%, #FDBA84 100%);
     border-radius: 15px;
 
@@ -58,61 +58,112 @@ body{
     
 }
 .heading{
-    width:350px ;
+    width:490px ;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid #000000;
+    font-weight: 700;
+   
 }
 
 .heading p{
-    font-size: 20px;
+    font-size: 30px;
+    color: #ffffff;
 }
 
 
 button{
-    width: 60px;
+    width: 90px;
     height: 35px;
     border-radius: 10px;
+    color: #ffffff;
+    font-weight: 700;
+
 
 }
 
 .plan-tab-basic{
 
     height: 130px;
-    width: 100px;
+    width: 130px;
     border: 2px solid #000;
     display: flex;
     align-items: center;
-    
+    font-size: 20px;
     flex-direction: column;
-    background-color: aqua;
+    background-color: #fb797b;
     border-radius: 20px 20px 0px 0px ;
+    color: #ffffff;
 
 }
 
 .plan-tab-standard{
     height: 130px;
-    width: 100px;
+    width: 140px;
     border: 2px solid #000;
     display: flex;
     align-items: center;
-    justify-content: center;
+    background-color: #af65fa;
     flex-direction: column;
     border-radius: 20px 20px 0px 0px ;
+    font-size: 20px;
+    color: #ffffff;
+    
 
 
 }
 
 .plan-tab-premium{
     height: 130px;
-    width: 100px;
+    width: 140px;
     border: 2px solid #000;
     display: flex;
     align-items: center;
-    justify-content: center;
+    background-color: #6d8aff;
     flex-direction: column;
     border-radius: 20px 20px 0px 0px ;
+    font-size: 20px;
+    color: #ffffff;
 
+
+}
+
+
+.price{
+    font-size: 30px;
+    margin-top: 15px;
+    color: #ffffff;
+}
+
+.basic-button{
+    background-color: #fb797b;
+}
+
+.standard-button{
+    background-color: #af65fa;
+
+
+}
+
+.premium-button{
+    background-color: #6d8aff;
+}
+
+.banner{
+    height: 40px;
+    width: 400px;
+    position: absolute;
+    top: 10px;
+    right : 1800px;
+    background-color: #F95E62;
+    rotate: -30deg; 
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 1000;
+}
+.block.even{
+    background-color: #dec1c1;
 
 }
